@@ -1,0 +1,25 @@
+{
+  "name": "friends-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start:server": "nodemon server.js --ignore dist/ --ignore src/",
+    "build": "webpack",
+    "build:dev": "npm run build -- --watch --mode development",
+    "start:dev": "npm run start:server & npm run build:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.0",
+    "sequelize": "^6.3.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

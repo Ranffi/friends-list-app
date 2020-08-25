@@ -1,0 +1,35 @@
+h1 {
+    color: dodgerblue;
+    background-color: blanchedalmond;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  span {
+    margin: 0 5px 0 0;
+  }
+  .friend > button {
+    margin: 0 3px 0 0;
+  }
+  *{
+      text-align: center;
+  }
+  ul{
+      list-style: none;
+      color:dodgerblue;
+  }
+  button{
+    border: 1px solid black;
+  }
+  button:hover{
+      background-color: dodgerblue;
+  }
+
+  .add{
+      color:green;
+  }
+
+.delete{
+    color: red;
+}

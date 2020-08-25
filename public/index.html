@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <script src='/dist/main.js' defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Friends list</h1>
+    <div id='form-container'>
+      <form method='POST' action='/api/friends'>
+        <input type='text' name='name' id='textInput'>
+        <input type='submit' value='submit'>
+      </form>
+    </div>
+    <ul id='friends-list'></ul>
+    <hr>
+  </body>
+</html>
